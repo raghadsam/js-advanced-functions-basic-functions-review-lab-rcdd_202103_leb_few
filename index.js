@@ -31,4 +31,6 @@ function actionApplyer(integ,array){
     if(array.length===0)
       return integ;
 
+      console.log(array);
+    
 }
