@@ -32,6 +32,6 @@ function actionApplyer(integ,array){
       return integ;
 
       console.log(array);
-      let result=array[0](integ)+array[1](integ)+array[2](integ);
+      let result=array[0](integ)+array[1](array[0](integ))+array[2](array[1](array[0](integ)));
       return result;
 }
