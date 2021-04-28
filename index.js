@@ -27,7 +27,7 @@ let Calculator={
 };
 function actionApplyer(integ,array){
   let result1,result2,result3;
-  return 
+  return
     if(array="")
       return `${integ}`;
     else {
