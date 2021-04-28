@@ -33,4 +33,3 @@ function actionApplyer(integ,array){
         function(){return result3=`${result2}%7`}
   ];
 }
-
