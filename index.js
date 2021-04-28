@@ -31,10 +31,9 @@ function actionApplyer(integ,array){
     if(array.length()===0)
       return `${integ}`;
     else {
-      [
         [function(){return result1=`${integ}*2`; }],
         [function(){return result2=`${result1}+1000;`}],
         [function(){return result3=`${result2}%7`}]
-      ];
+      ;
     }
 }
