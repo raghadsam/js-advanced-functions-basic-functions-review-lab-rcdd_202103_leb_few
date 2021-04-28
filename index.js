@@ -32,5 +32,5 @@ function actionApplyer(integ,array){
       return integ;
 
       console.log(array);
-    
+
 }
