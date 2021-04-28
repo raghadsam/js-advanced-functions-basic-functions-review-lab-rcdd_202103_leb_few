@@ -30,5 +30,5 @@ function actionApplyer(integ,array){
   //return
     if(array.length===0)
       return `${integ}`;
-    
+
 }
