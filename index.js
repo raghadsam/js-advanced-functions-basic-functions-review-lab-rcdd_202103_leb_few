@@ -29,7 +29,7 @@ function actionApplyer(integ,array){
   let result1,result2,result3;
   return
     if(array="")
-      return 0;
+      return `${integ}`;
     else {
       [
         [function(){return result1=`${integ}*2`; }],
