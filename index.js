@@ -31,7 +31,8 @@ function actionApplyer(integ,array){
     if(array.length===0)
       return integ;
 
-      console.log(array);
-      let result=array[0](integ)+array[1](integ)+array[2](integ);
+    //  console.log(array);
+      //let result=array[0](integ)+array[1](integ)+array[2](integ);
+      let result=array[2](array[1](array[0](integ)));
       return result;
 }
